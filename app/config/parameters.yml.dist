@@ -1,0 +1,16 @@
+# Dist
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: portalapi
+    database_user: portalapi
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: 'mail.supremecluster.com'
+    mailer_user: 'noreply@puzzlout.com'
+    mailer_password: '3PPVte6bn0'
+    secret: ThisTokenIsNotSoSecretChangeIt
+    jwt_private_key_path: '%kernel.root_dir%/../var/jwt/private.pem'
+    jwt_public_key_path: '%kernel.root_dir%/../var/jwt/public.pem'
+    jwt_key_pass_phrase: ytZ7vp7xWH
+    jwt_token_ttl: 86400
